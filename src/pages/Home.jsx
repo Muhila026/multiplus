@@ -24,31 +24,14 @@ const Home = () => {
 
       <ul className="pro-features">
         <a className="get-pro" href="#">
-          Get Pro
+          Click Me
         </a>
-        <li className="big-title">Pro Version Available on Themeforest</li>
-        <li className="title">Pro Version Features</li>
-        <li>2+ premade home pages</li>
-        <li>20+ html pages</li>
-        <li>Color Plate With 12+ Colors</li>
-        <li>Sticky Header / Sticky Filters</li>
-        <li>Working Contact Form With Google Map</li>
-        <div className="button">
-          <a
-            href="http://preview.themeforest.net/item/mediplus-medical-and-doctor-html-template/full_screen_preview/26665910?_ga=2.145092285.888558928.1591971968-344530658.1588061879"
-            target="_blank"
-            className="btn"
-          >
-            Pro Version Demo
-          </a>
-          <a
-            href="https://themeforest.net/item/mediplus-medical-and-doctor-html-template/26665910"
-            target="_blank"
-            className="btn"
-          >
-            Buy Pro Version
-          </a>
-        </div>
+        <li className="big-title">Language Used</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Java Script</li>
+        <li>Vite</li>
+        <li>Css</li>
       </ul>
 
       <header className="header">
@@ -74,7 +57,7 @@ const Home = () => {
               <div className="col-lg-6 col-md-7 col-12">
                 <ul className="top-contact">
                   <li>
-                    <i className="fa fa-phone"></i>+880 1234 56789
+                    <i className="fa fa-phone"></i>021 221 7899
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
@@ -82,7 +65,7 @@ const Home = () => {
                       href="mailto:support@yourmail.
                                 com"
                     >
-                      support@yourmail.com
+                      multiplusjaffna@gmail.com
                     </a>
                   </li>
                 </ul>
@@ -176,9 +159,7 @@ const Home = () => {
                       <span>Trust!</span>
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.{" "}
+                      We are dedicated to delivering high-quality healthcare services with compassion and expertise.{" "}
                     </p>
                     <div className="button">
                       <a href="#" className="btn">
@@ -204,9 +185,8 @@ const Home = () => {
                       <span>Trust!</span>
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.{" "}
+                    Our team of experienced professionals utilizes advanced medical technology to ensure accurate diagnosis and effective
+                    treatment.{" "}
                     </p>
                     <div className="button">
                       <a href="#" className="btn">
@@ -232,9 +212,8 @@ const Home = () => {
                       <span>Trust!</span>
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.{" "}
+                    Whether you need routine checkups, specialized care, or emergency assistance, we are here to provide
+                    reliable and personalized medical solutions you can trust.{" "}
                     </p>
                     <div className="button">
                       <a href="#" className="btn">
@@ -263,11 +242,11 @@ const Home = () => {
                       <i className="fa fa-ambulance"></i>
                     </div>
                     <div className="single-content">
-                      <span>Lorem Amet</span>
-                      <h4>Emergency Cases</h4>
+                      <span>Expert Availability</span>
+                      <h4>Doctors Timetable</h4>
                       <p>
-                        Lorem ipsum sit amet consectetur adipiscing elit.
-                        Vivamus et erat in lacus convallis sodales.
+                        Plan your visit with ease using our updated doctors’ schedule. We offer flexible appointment slots to
+                        accommodate your needs, ensuring you receive the best care at your convenience.
                       </p>
                       <a href="#">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
@@ -283,11 +262,11 @@ const Home = () => {
                       <i className="icofont-prescription"></i>
                     </div>
                     <div className="single-content">
-                      <span>Fusce Porttitor</span>
-                      <h4>Doctors Timetable</h4>
+                      <span>Rapid Response</span>
+                      <h4>Emergency Cases</h4>
                       <p>
-                        Lorem ipsum sit amet consectetur adipiscing elit.
-                        Vivamus et erat in lacus convallis sodales.
+                        Our emergency services are available 24/7, ensuring immediate medical attention when you need it most.
+                        With highly skilled professionals and advanced medical equipment, we provide swift and efficient care.
                       </p>
                       <a href="#">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
@@ -303,17 +282,17 @@ const Home = () => {
                       <i className="icofont-ui-clock"></i>
                     </div>
                     <div className="single-content">
-                      <span>Donec luctus</span>
+                      <span>Convenient Hours</span>
                       <h4>Opening Hours</h4>
                       <ul className="time-sidual">
                         <li className="day">
-                          Monday - Fridayp <span>8.00-20.00</span>
+                          Monday - Friday <span>8.00-20.00</span>
                         </li>
                         <li className="day">
                           Saturday <span>9.00-18.30</span>
                         </li>
                         <li className="day">
-                          Monday - Thusday <span>9.00-15.00</span>
+                          Sunday <span>Closed</span>
                         </li>
                       </ul>
                       <a href="#">
@@ -332,12 +311,13 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="section-title">
+            <div className="section-title">
                 <h2>We Are Always Ready to Help You & Your Family</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  We are committed to providing compassionate and professional healthcare services.
+                  Our dedicated team ensures that you and your family receive the best medical care with advanced technology
+                  and expert guidance.
                 </p>
               </div>
             </div>
@@ -350,8 +330,8 @@ const Home = () => {
                 </div>
                 <h3>Emergency Help</h3>
                 <p>
-                  Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
-                  vulputate.
+                  Our emergency response team is available 24/7 to provide immediate medical attention when you need it most.
+                  With state-of-the-art ambulances and skilled professionals, we ensure rapid and effective care during critical moments.
                 </p>
               </div>
             </div>
@@ -362,8 +342,8 @@ const Home = () => {
                 </div>
                 <h3>Enriched Pharmecy</h3>
                 <p>
-                  Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
-                  vulputate.
+                  Our enriched pharmacy is stocked with high-quality medications and essential healthcare products.
+                  We ensure accessibility to the best pharmaceutical solutions to support your well-being.
                 </p>
               </div>
             </div>
@@ -374,8 +354,8 @@ const Home = () => {
                 </div>
                 <h3>Medical Treatment</h3>
                 <p>
-                  Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
-                  vulputate.
+                  From routine checkups to specialized treatments, our medical team is here to provide comprehensive healthcare solutions.
+                  With a patient-centered approach, we prioritize your health and recovery at every step.
                 </p>
               </div>
             </div>
@@ -434,8 +414,9 @@ const Home = () => {
                 <h2>We Offer Different Services To Improve Your Health</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                At Multiplus Medical, we are dedicated to enhancing your well-being with top-quality
+                  healthcare services. Our expert team provides personalized treatments to ensure
+                  you receive the best possible care.
                 </p>
               </div>
             </div>
@@ -445,42 +426,38 @@ const Home = () => {
               <div className="choose-left">
                 <h3>Who We Are</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas pharetra antege vel est lobortis, a commodo magna
-                  rhoncus. In quis nisi non emet quam pharetra commodo.{" "}
+                Multiplus Medical is a trusted healthcare provider offering comprehensive medical
+                  solutions. We prioritize patient care, combining advanced medical technology with
+                  a compassionate approach to treatment.{" "}
                 </p>
                 <p>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.{" "}
+                Our experienced team is committed to delivering high-quality healthcare services
+                  that focus on diagnosis, treatment, and long-term wellness.{" "}
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Maecenas vitae
-                        luctus nibh.{" "}
+                        <i className="fa fa-caret-right"></i> Personalized treatment plans.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Duis massa massa.
+                        <i className="fa fa-caret-right"></i> 24/7 emergency medical services.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Aliquam feugiat
-                        interdum.
+                        <i className="fa fa-caret-right"></i> Advanced diagnostic and treatment facilities.
                       </li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Maecenas vitae
-                        luctus nibh.{" "}
+                        <i className="fa fa-caret-right"></i> Highly skilled and experienced doctors.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Duis massa massa.
+                        <i className="fa fa-caret-right"></i> Preventive care and wellness programs.
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Aliquam feugiat
-                        interdum.
+                        <i className="fa fa-caret-right"></i> Compassionate patient-centered approach.
                       </li>
                     </ul>
                   </div>
@@ -516,10 +493,11 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-12">
               <div className="content">
-                <h2>Do you need Emergency Medical Care? Call @ 1234 56789</h2>
+                <h2>Do you need Emergency Medical Care? Call +94 75 555 5551</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque porttitor dictum turpis nec gravida.
+                  In case of a medical emergency, our dedicated team is available 24/7 to provide immediate
+                  care and support. With advanced medical facilities and experienced professionals, we ensure
+                  that you receive prompt and reliable treatment when you need it the most.
                 </p>
                 <div className="button">
                   <a href="#" className="btn">
@@ -543,8 +521,10 @@ const Home = () => {
                 <h2>We Maintain Cleanliness Rules Inside Our Hospital</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  We prioritize cleanliness and hygiene to ensure a safe and sterile
+                  environment for our patients and staff. Our hospital follows strict sanitation protocols,
+                  advanced sterilization techniques, and regular disinfection procedures to maintain the
+                  highest standards of healthcare safety.
                 </p>
               </div>
             </div>
@@ -616,8 +596,10 @@ const Home = () => {
                 <h2>We Offer Different Services To Improve Your Health</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  Our healthcare services are designed to provide comprehensive medical care,
+                  ensuring the well-being of our patients. From preventive treatments to
+                  advanced surgical procedures, we are committed to delivering high-quality
+                  healthcare with compassion and expertise.
                 </p>
               </div>
             </div>
@@ -630,8 +612,8 @@ const Home = () => {
                   <a href="service-details.html">General Treatment</a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet.{" "}
+                  We provide expert diagnosis and treatment for a wide range of
+                  medical conditions to ensure your overall health and well-being.
                 </p>
               </div>
             </div>
@@ -642,8 +624,8 @@ const Home = () => {
                   <a href="service-details.html">Teeth Whitening</a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet.{" "}
+                  Our professional teeth whitening services help you achieve a
+                  brighter, healthier smile with safe and effective treatments.
                 </p>
               </div>
             </div>
@@ -654,8 +636,8 @@ const Home = () => {
                   <a href="service-details.html">Heart Surgery</a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet.{" "}
+                  Advanced cardiac care, including life-saving heart surgeries,
+                  performed by experienced specialists using cutting-edge technology.
                 </p>
               </div>
             </div>
@@ -666,8 +648,8 @@ const Home = () => {
                   <a href="service-details.html">Ear Treatment</a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet.{" "}
+                  Comprehensive ear care services, including diagnosis and
+                  treatment of hearing disorders and infections.
                 </p>
               </div>
             </div>
@@ -678,8 +660,8 @@ const Home = () => {
                   <a href="service-details.html">Vision Problems</a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet.{" "}
+                  Expert eye care services, including vision correction and
+                  treatment of various eye conditions to maintain healthy eyesight.
                 </p>
               </div>
             </div>
@@ -690,8 +672,8 @@ const Home = () => {
                   <a href="service-details.html">Blood Transfusion</a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  luctus dictum eros ut imperdiet.{" "}
+                  Safe and reliable blood transfusion services ensuring timely
+                  medical support for patients in need.
                 </p>
               </div>
             </div>
@@ -704,11 +686,13 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title">
-                <h2>We Provide You The Best Treatment In Resonable Price</h2>
+                <h2>We Provide You The Best Treatment At Reasonable Prices</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  Our medical services are affordable yet of the highest quality, ensuring
+                  you get the best care without compromising your health or budget. From general
+                  treatments to specialized surgeries, we provide excellent healthcare at
+                  competitive prices, with payment options in Sri Lankan Rupees .
                 </p>
               </div>
             </div>
@@ -720,34 +704,29 @@ const Home = () => {
                   <div className="icon">
                     <i className="icofont icofont-ui-cut"></i>
                   </div>
-                  <h4 className="title">Plastic Suggery</h4>
+                  <h4 className="title">Plastic Surgery</h4>
                   <div className="price">
                     <p className="amount">
-                      $199<span>/ Per Visit</span>
+                      LKR 75,000<span>/ Per Visit</span>
                     </p>
                   </div>
                 </div>
 
                 <ul className="table-list">
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Lorem ipsum
-                    dolor sit
+                    <i className="icofont icofont-ui-check"></i>Comprehensive consultation
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Cubitur
-                    sollicitudin fentum
+                    <i className="icofont icofont-ui-check"></i>Advanced surgical techniques
                   </li>
                   <li className="cross">
-                    <i className="icofont icofont-ui-close"></i>Nullam interdum
-                    enim
+                    <i className="icofont icofont-ui-close"></i>Non-invasive procedures
                   </li>
                   <li className="cross">
-                    <i className="icofont icofont-ui-close"></i>Donec ultricies
-                    metus
+                    <i className="icofont icofont-ui-close"></i>Minor treatments available
                   </li>
                   <li className="cross">
-                    <i className="icofont icofont-ui-close"></i>Pellentesque
-                    eget nibh
+                    <i className="icofont icofont-ui-close"></i>No follow-up required
                   </li>
                 </ul>
                 <div className="table-bottom">
@@ -767,31 +746,26 @@ const Home = () => {
                   <h4 className="title">Teeth Whitening</h4>
                   <div className="price">
                     <p className="amount">
-                      $299<span>/ Per Visit</span>
+                      LKR 35,000<span>/ Per Visit</span>
                     </p>
                   </div>
                 </div>
 
                 <ul className="table-list">
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Lorem ipsum
-                    dolor sit
+                    <i className="icofont icofont-ui-check"></i>Professional teeth whitening
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Cubitur
-                    sollicitudin fentum
+                    <i className="icofont icofont-ui-check"></i>Safe and effective treatment
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Nullam interdum
-                    enim
+                    <i className="icofont icofont-ui-check"></i>Immediate visible results
                   </li>
                   <li className="cross">
-                    <i className="icofont icofont-ui-close"></i>Donec ultricies
-                    metus
+                    <i className="icofont icofont-ui-close"></i>Self-administered treatments
                   </li>
                   <li className="cross">
-                    <i className="icofont icofont-ui-close"></i>Pellentesque
-                    eget nibh
+                    <i className="icofont icofont-ui-close"></i>Home remedies available
                   </li>
                 </ul>
                 <div className="table-bottom">
@@ -808,34 +782,29 @@ const Home = () => {
                   <div className="icon">
                     <i className="icofont-heart-beat"></i>
                   </div>
-                  <h4 className="title">Heart Suggery</h4>
+                  <h4 className="title">Heart Surgery</h4>
                   <div className="price">
                     <p className="amount">
-                      $399<span>/ Per Visit</span>
+                      LKR 150,000<span>/ Per Visit</span>
                     </p>
                   </div>
                 </div>
 
                 <ul className="table-list">
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Lorem ipsum
-                    dolor sit
+                    <i className="icofont icofont-ui-check"></i>Comprehensive heart health
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Cubitur
-                    sollicitudin fentum
+                    <i className="icofont icofont-ui-check"></i>Advanced cardiac procedures
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Nullam interdum
-                    enim
+                    <i className="icofont icofont-ui-check"></i>Skilled surgeons with years of experience
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Donec ultricies
-                    metus
+                    <i className="icofont icofont-ui-check"></i>24/7 cardiac monitoring available
                   </li>
                   <li>
-                    <i className="icofont icofont-ui-check"></i>Pellentesque
-                    eget nibh
+                    <i className="icofont icofont-ui-check"></i>Pre-surgical consultations included
                   </li>
                 </ul>
                 <div className="table-bottom">
@@ -854,11 +823,13 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title">
-                <h2>Keep up with Our Most Recent Medical News.</h2>
+                <h2>Keep up with Our Most Recent Medical News</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  Stay informed with the latest updates on medical advancements, new treatments,
+                  health tips, and breakthroughs in healthcare. Our blog offers expert insights
+                  and the latest trends in the medical field, ensuring you receive reliable
+                  information to take better care of your health.
                 </p>
               </div>
             </div>
@@ -874,13 +845,13 @@ const Home = () => {
                     <div className="date">22 Aug, 2020</div>
                     <h2>
                       <a href="blog-single.html">
-                        We have annnocuced our new product.
+                        We Have Announced Our New Medical Product
                       </a>
                     </h2>
                     <p className="text">
-                      Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                      elit, sed do eiusmod tempor incididunt sed do incididunt
-                      sed.
+                      We are excited to introduce a new product designed to enhance patient care
+                      and improve recovery times. Read more about the cutting-edge features and
+                      benefits this product offers to the medical community.
                     </p>
                   </div>
                 </div>
@@ -896,13 +867,12 @@ const Home = () => {
                     <div className="date">15 Jul, 2020</div>
                     <h2>
                       <a href="blog-single.html">
-                        Top five way for solving teeth problems.
+                        Top Five Ways for Solving Common Dental Problems
                       </a>
                     </h2>
                     <p className="text">
-                      Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                      elit, sed do eiusmod tempor incididunt sed do incididunt
-                      sed.
+                      Dental health is crucial for overall well-being. Discover the top five ways
+                      to maintain healthy teeth and gums, along with solutions to common dental issues.
                     </p>
                   </div>
                 </div>
@@ -918,13 +888,13 @@ const Home = () => {
                     <div className="date">05 Jan, 2020</div>
                     <h2>
                       <a href="blog-single.html">
-                        We provide highly business soliutions.
+                        We Provide Highly Specialized Healthcare Solutions
                       </a>
                     </h2>
                     <p className="text">
-                      Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                      elit, sed do eiusmod tempor incididunt sed do incididunt
-                      sed.
+                      At our facility, we offer specialized healthcare solutions designed to meet
+                      the needs of patients with complex medical conditions. Explore our services
+                      and learn how we can help you achieve optimal health.
                     </p>
                   </div>
                 </div>
@@ -980,8 +950,9 @@ const Home = () => {
                 <h2>We Are Always Ready to Help You. Book An Appointment</h2>
                 <img src="/assets/img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  Our medical team is dedicated to providing you with the highest level of care.
+                  Whether you re seeking a routine check-up or specialized treatment, we’re here
+                  to assist you. Book your appointment today and take the first step towards better health.
                 </p>
               </div>
             </div>
@@ -1007,11 +978,10 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="form-group">
-                    <div className="nice-select form-control wide" tabIndex="0">
-
+                      <div className="nice-select form-control wide" tabIndex="0">
                         <span className="current">Department</span>
                         <ul className="list">
-                          <li data-value="1" className="option selected ">
+                          <li data-value="1" className="option selected">
                             Department
                           </li>
                           <li data-value="2" className="option">
@@ -1032,11 +1002,10 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="form-group">
-                    <div className="nice-select form-control wide" tabIndex="0">
-
+                      <div className="nice-select form-control wide" tabIndex="0">
                         <span className="current">Doctor</span>
                         <ul className="list">
-                          <li data-value="1" className="option selected ">
+                          <li data-value="1" className="option selected">
                             Doctor
                           </li>
                           <li data-value="2" className="option">
@@ -1077,12 +1046,12 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-lg-7 col-md-8 col-12">
-                    <p>( We will be confirm by an Text Message )</p>
+                    <p>( You will receive a confirmation via text message )</p>
                   </div>
                 </div>
               </form>
             </div>
-            <div className="col-lg-6 col-md-12 ">
+            <div className="col-lg-6 col-md-12">
               <div className="appointment-image">
                 <img src="/assets/img/contact-img.png" alt="#" />
               </div>
@@ -1093,19 +1062,19 @@ const Home = () => {
 
       <section className="newsletter section">
         <div className="container">
-          <div className="row ">
-            <div className="col-lg-6  col-12">
+          <div className="row">
+            <div className="col-lg-6 col-12">
               <div className="subscribe-text">
-                <h6>Sign up for newsletter</h6>
+                <h6>Sign up for our Medical Newsletter</h6>
                 <p className="">
-                  Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,
+                  Stay informed about the latest advancements in healthcare and receive tips on maintaining your well-being.
                   <br />
-                  homero alterum.
+                  Get updates on medical treatments, wellness, and more directly to your inbox.
                 </p>
               </div>
             </div>
-            <div className="col-lg-6  col-12">
-              <div className="subscribe-form ">
+            <div className="col-lg-6 col-12">
+              <div className="subscribe-form">
                 <form
                   action="mail/mail.php"
                   method="get"
@@ -1129,7 +1098,7 @@ const Home = () => {
         </div>
       </section>
 
-      <footer id="footer" className="footer ">
+      <footer id="footer" className="footer">
         <div className="footer-top">
           <div className="container">
             <div className="row">
@@ -1137,8 +1106,7 @@ const Home = () => {
                 <div className="single-footer">
                   <h2>About Us</h2>
                   <p>
-                    Lorem ipsum dolor sit am consectetur adipisicing elit do
-                    eiusmod tempor incididunt ut labore dolore magna.
+                    We are dedicated to providing exceptional healthcare services. Our team of medical experts is here to ensure your well-being.
                   </p>
 
                   <ul className="social">
@@ -1170,6 +1138,7 @@ const Home = () => {
                   </ul>
                 </div>
               </div>
+
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer f-link">
                   <h2>Quick Links</h2>
@@ -1178,47 +1147,32 @@ const Home = () => {
                       <ul>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
                             Home
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
                             About Us
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
                             Services
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
                             Our Cases
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
-                            Other Links
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
+                            Contact Us
                           </a>
                         </li>
                       </ul>
@@ -1227,47 +1181,32 @@ const Home = () => {
                       <ul>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
-                            Consuling
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
+                            Consultations
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
-                            Finance
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
+                            Specialties
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
                             Testimonials
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
-                            FAQ
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
+                            FAQs
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <i
-                              className="fa fa-caret-right"
-                              aria-hidden="true"
-                            ></i>
-                            Contact Us
+                            <i className="fa fa-caret-right" aria-hidden="true"></i>
+                            Book an Appointment
                           </a>
                         </li>
                       </ul>
@@ -1275,33 +1214,32 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>Open Hours</h2>
                   <p>
-                    Lorem ipsum dolor sit ame consectetur adipisicing elit do
-                    eiusmod tempor incididunt.
+                    We are here to assist you with your medical needs during the following hours:
                   </p>
                   <ul className="time-sidual">
                     <li className="day">
-                      Monday - Fridayp <span>8.00-20.00</span>
+                      Monday - Friday <span>8.00 AM - 8.00 PM</span>
                     </li>
                     <li className="day">
-                      Saturday <span>9.00-18.30</span>
+                      Saturday <span>9.00 AM - 6.30 PM</span>
                     </li>
                     <li className="day">
-                      Monday - Thusday <span>9.00-15.00</span>
+                      Sunday <span>Closed</span>
                     </li>
                   </ul>
                 </div>
               </div>
+
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>Newsletter</h2>
                   <p>
-                    subscribe to our newsletter to get allour news in your
-                    inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit,
+                    Stay up to date with the latest medical news, tips, and health updates. Subscribe to our newsletter.
                   </p>
                   <form
                     action="mail/mail.php"
@@ -1311,7 +1249,7 @@ const Home = () => {
                   >
                     <input
                       name="email"
-                      placeholder="Email Address"
+                      placeholder="Your email address"
                       className="common-input"
                       onFocus={(e) => (e.target.placeholder = '')}
                       onBlur={(e) => (e.target.placeholder = 'Your email address')}
@@ -1334,10 +1272,10 @@ const Home = () => {
               <div className="col-lg-12 col-md-12 col-12">
                 <div className="copyright-content">
                   <p>
-                    © Copyright 2018 | All Rights Reserved by{" "}
-                    <a href="https://www.wpthemesgrid.com" target="_blank">
-                      wpthemesgrid.com
-                    </a>{" "}
+                    © Copyright 2025 | All Rights Reserved by {"Muhila"}
+                    <a href="https://muhila-portfolio.netlify.app" target="_blank">
+                      www.Devmuhi.com
+                    </a>
                   </p>
                 </div>
               </div>
@@ -1345,6 +1283,7 @@ const Home = () => {
           </div>
         </div>
       </footer>
+
     </>
   );
 };

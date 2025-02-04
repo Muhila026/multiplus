@@ -1,0 +1,107 @@
+{
+  "Header": {
+    "title": "Welcome to Medi Plus Jaffna Hospital",
+    "paragraph": "Providing quality healthcare services with advanced medical technology and experienced professionals."
+  },
+  "About": {
+    "paragraph": "Medi Plus Jaffna Hospital is committed to offering comprehensive healthcare services, including emergency care, specialized treatments, and diagnostic facilities. Our team of skilled doctors and medical professionals ensure the best patient care.",
+    "Why": [
+      "24/7 Emergency Services",
+      "Experienced Medical Professionals",
+      "Advanced Diagnostic Facilities",
+      "Patient-Centric Approach"
+    ],
+    "Why2": [
+      "State-of-the-Art Equipment",
+      "Affordable Healthcare Services",
+      "Multi-Specialty Treatments",
+      "Comprehensive Health Check-ups"
+    ]
+  },
+  "Contact": {
+    "address": "23 Main Street, Jaffna, Sri Lanka",
+    "phone": "021 222 1222",
+    "email": "info@mediplus-hospital.com",
+    "facebook": "facebook.com/mediplus-hospital",
+    "twitter": "twitter.com/mediplus-hospital",
+    "youtube": "youtube.com/mediplus-hospital"
+  },
+  "Features": [
+    {
+      "icon": "faAmbulance",
+      "title": "Emergency Care",
+      "text": "Our emergency department is open 24/7 with dedicated staff to handle all critical cases efficiently."
+    },
+    {
+      "icon": "faHeartbeat",
+      "title": "Cardiology",
+      "text": "Expert cardiologists providing advanced heart care and treatment."
+    },
+    {
+      "icon": "faMicroscope",
+      "title": "Advanced Diagnostics",
+      "text": "State-of-the-art diagnostic facilities, including MRI, CT scans, and laboratory testing."
+    },
+    {
+      "icon": "faUserMd",
+      "title": "Specialized Treatments",
+      "text": "Multi-specialty services covering various medical fields including neurology, orthopedics, and pediatrics."
+    }
+  ],
+  "Gallery": [
+    {
+      "title": "Hospital Building",
+      "smallImage": "img/building.jpg"
+    },
+    {
+      "title": "Patient Care",
+      "smallImage": "img/patientcare.jpg"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/patient1.jpg",
+      "text": "Excellent service and friendly staff. Highly recommended!",
+      "name": "Mr. S. Rajan"
+    },
+    {
+      "img": "img/patient2.jpeg",
+      "text": "The doctors are very professional and caring. I had a great experience.",
+      "name": "Ms. N. Priya"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/doctor1.jpeg",
+      "name": "Dr. A. Suresh",
+      "job": "Chief Medical Officer"
+    },
+    {
+      "img": "img/doctor2.jpg",
+      "name": "Dr. M. Kavitha",
+      "job": "Senior Cardiologist"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "faStethoscope",
+      "name": "General Medicine",
+      "text": "Comprehensive primary care services for all age groups."
+    },
+    {
+      "icon": "faUserNurse",
+      "name": "Maternity Care",
+      "text": "Expert obstetricians ensuring safe and comfortable childbirth."
+    },
+    {
+      "icon": "faSyringe",
+      "name": "Vaccination & Immunization",
+      "text": "Routine and travel vaccinations available."
+    },
+    {
+      "icon": "faHospital",
+      "name": "Surgical Procedures",
+      "text": "Experienced surgeons performing advanced medical procedures."
+    }
+  ]
+}
